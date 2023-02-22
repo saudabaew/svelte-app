@@ -5,7 +5,8 @@
 
     onMount(async () => {
         // const res = await fetch('http://pve-test.develop.newdv.ru:8888/vms')
-        const res = await fetch('http://localhost:8888/vms')
+        // const res = await fetch('http://localhost:8888/vms')
+        const res = await fetch('http://185.229.9.10:8888/vms')
         result = await res.json()
     })
 </script>
